@@ -1,0 +1,2 @@
+worker: python suvc.py
+web: python -m http.server $PORT
